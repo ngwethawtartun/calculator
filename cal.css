@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.display {
+  padding: 10px;
+  height: 75px;
+  width: 450px;
+  background-color: whitesmoke;
+  text-align: right;
+}
+.result{
+    margin-top: 1em;
+}
+.number {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 250px;
+}
